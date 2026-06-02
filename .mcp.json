@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fli": {
+      "command": "fli-mcp",
+      "args": [],
+      "env": {}
+    }
+  }
+}

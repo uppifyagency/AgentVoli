@@ -1,0 +1,35 @@
+[project]
+name = "agentvoli"
+version = "0.1.0"
+description = "Google Flights API for Python + AI Travel Planner toolkit, MCP-ready for Claude Code"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "uppifyagency" }]
+keywords = [
+    "google-flights",
+    "google-flights-api",
+    "flight-search",
+    "ai-travel-planner",
+    "mcp",
+    "claude-code",
+    "travel-planner",
+    "ricerca-voli",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "flights[mcp]>=0.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/uppifyagency/AgentVoli"
+Repository = "https://github.com/uppifyagency/AgentVoli"
+Issues = "https://github.com/uppifyagency/AgentVoli/issues"

@@ -1,0 +1,29 @@
+# Ambiente
+.env
+.env.local
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Output / cache
+*.log
+data/
+.pytest_cache/
+.ruff_cache/
+
+# Dipendenza esterna (clone separato del repo punitarani/fli)
+fli/
+
+# nWave workspace privato
+.nwave/
